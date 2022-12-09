@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP Bootstrap</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand text-success" href="#">LOGO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Acceuil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacts</a>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Go</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+<!--caroussel-->
+<div class="container me-auto">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/designer.jpg" class="d-block w-100"  alt="...">
+          </div>
+          <div class="carousel-item ">
+            <img src="images/coding-man.jpg" class="d-block w-100"  alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/student.jpg" class="d-block w-100"  alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</div>
+
+  <!--cards-->
+        <div class="container me-auto">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12 p-5">
+                    <div class="card" >
+                        <img src="images/card1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-success">Voir Plus...</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 p-5">
+                    <div class="card" >
+                        <img src="images/card1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-success">Voir Plus...</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 p-5">
+                    <div class="card" >
+                        <img src="images/card1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-success">Voir Plus...</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>  
+        <div class="text m-5">
+            <h3>Notre équipe :</h3>
+        </div>
+<!--cards circle-->
+          <div class="container me-auto d-flex justify-content-center">
+           
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-12 p-1 card-wrapper text-center">
+                <div class="card border-0 d-flex align-items-center">
+                  <div class="position-relative rounded-circle overflow-hidden  w-50 custom-circle-image">
+                    <img class="w-100 h-100" src="images/p1.jpg" alt="Card image cap">
+                  </div>
+                  <div class="card-body  mt-4">
+                    <h3 class=" card-title">Web Developper</h3>
+                    <p class="card-text">A short caption detailing an aspect of the brand which is worth mentioning.</p>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-lg-4 col-md-6 col-12 p-1 card-wrapper text-center">
+                <div class="card border-0 d-flex align-items-center">
+                  <div class="position-relative rounded-circle overflow-hidden  w-50 custom-circle-image">
+                    <img  class="w-100 h-100" src="images/p1.jpg" alt="Card image cap">
+                  </div>
+                  <div class="card-body  mt-4">
+                    <h3 class=" card-title">Web Designer</h3>
+                    <p class="card-text">A short caption detailing an aspect of the brand which is worth mentioning.</p>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-lg-4 col-md-6 col-12 p-1 card-wrapper text-center">
+                <div class="card border-0 d-flex align-items-center">
+                  <div class="position-relative rounded-circle overflow-hidden w-50 custom-circle-image">
+                    <img  class="w-100 h-100" src="images/p1.jpg" alt="Card image cap">
+                  </div>
+                  <div class="card-body  mt-4">
+                    <h3 class=" card-title">Web Architect</h3>
+                    <p class="card-text">A short caption detailing an aspect of the brand which is worth mentioning.</p>
+                  </div>
+                </div>
+              </div>
+        
+            </div>
+          </div>
+
+
+<!--Maps & infos -->
+          <div class="container me-auto ">
+            <div class="row">
+                <div class="col-lg-8 col-md-6 col-12 p-2 text-center">
+                   <div class="jumbotron">
+                    <div class="find-widget">
+                        Company:  <a href="#">ENSET</a>
+                       </div>
+                       <div class="find-widget">
+                        Address: <a href="#">ENSET Mohammedia </a>
+                       </div>
+                       <div class="find-widget">
+                         Phone:  <a href="#">+ 212 522 00 00 00</a>
+                       </div>
+                       <div class="find-widget">
+                         Website:  <a href="#">www.enset.ma</a>
+                       </div>
+                   </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 p-1 ">
+          <!---->          
+                     <iframe width="100%" height="320"  frameborder="0" src="https://www.bing.com/maps/embed?h=400&w=500&cp=33.588883342140555~-7.6114654541015625&lvl=11&typ=d&sty=r&src=SHELL&FORM=MBEDV8" scrolling="no">
+                     </iframe>
+   
+                </div>
+            </div>
+          </div>
+
+
+
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
