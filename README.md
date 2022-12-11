@@ -10,8 +10,8 @@
 
 </head>
 <body>
-<h3> Affichage Tablette <h3>
-<img class="w-100 h-100" src="images/ss1.png" alt="">
+<h3> Tp Bootstrap <h3>
+
 
 
 </body>
